@@ -33,5 +33,12 @@
 <p align="center">             
 <img src="Images/CircuitDiagram.jpg?raw=true" alt="Circuit Diagram For Plant Monitoring System"></p>
 
-## How To configure System
-1) Download Code From This Repo 
+## How To Configure System
+1. Connect The Hardwares According To Circuit Diagram.
+2. Download Code From This Repository.
+3. Download Required Libraries Into Arduino IDE
+4. Connect NodeMCU to PC & Upload The Code into it.
+5. Open Blynk Web App Or Mobile App and Create New Device.
+6. Create Template and Add DataStreams:
+Pin V2,V5,V5 & D0 for Soil Moisture,Humidity,Tempereture and Motor Pump Respectively.
+7. Create Web/Mobile Dashboard Using DataStreams Like Charts, Graphs,etc.
